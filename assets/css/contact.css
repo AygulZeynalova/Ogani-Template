@@ -338,7 +338,6 @@ footer {
   border: none;
 }
 
-
 /*FOOTER*/
 .subscribe button {
   font-size: 14px;
@@ -362,33 +361,34 @@ footer {
   text-align: center;
   background: #ffffff;
 }
-
+.row {
+  height:70px;
+}
+.form-group {
+  display: flex;
+}
 .footer-top .social a:hover {
   color: #ffffff;
   background-color: #7fad39;
 }
 .form-group input {
- height: 53px;
- width: 250px;
- border: none;
- font-size: 20px;
+  height: 53px;
+  width: 250px;
+  border: none;
+  font-size: 20px;
 }
 .form-group button {
   height: 55px;
- 
 }
 .contact-info .fa-phone {
   margin-left: 16px;
   margin-bottom: 4px;
 }
-
-
 .breadcrumb-section h1{
   font-size:40px;
   font-weight: bolder;
   align-self:center;
   margin-top: auto;
-
 }
 .col .col-60 {
   margin-left: 20px;
@@ -396,18 +396,39 @@ footer {
 }
 .col .col-50 {
   font-size:15px;
-  
 }
-.social-footer  {
-justify-content: space-around;
+
+.social-footer li {
+  list-style: none;
+  margin: 0 10px; 
+}
+.social-footer li a {
+  display: inline-block;
+  width: 40px; 
+  height: 40px; 
+  background-color: #ccc; 
+  border-radius: 50%;
+  text-align: center;
+  line-height: 40px; 
+  color: white;
+  margin-top: 20px;
 }
 .container-footer {
-  height: 450px;
+  height: 350px;
 }
 .footer-top {
-  margin-left:60px;
+  margin-left:120px;
 }
 .col-right {
   margin-right: 120px;
 }
-
+.footer-bottom .paypal-icon {
+  margin-left: 900px;
+  max-width: 100%;
+  align-items: center;
+  position: relative;
+  bottom:45px;
+}
+.footer-bottom {
+  color: #939292;
+}
